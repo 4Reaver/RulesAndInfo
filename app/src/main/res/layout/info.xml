@@ -1,37 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background_blur"
-    android:padding="10dp">
+    style="@style/LL.secondary">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/infoTitle"
-        android:id="@+id/textView"
-        android:layout_gravity="center"
-        android:textSize="@dimen/title_size"
-        android:gravity="center"
-        android:layout_marginBottom="10dp"
-        android:textColor="@android:color/white"/>
+        android:id="@+id/mainTitle"
+        style="@style/margins.title.text"
+        android:text="@string/infoTitle"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/starlog_black"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp" />
+        android:id="@+id/logo"
+        style="@style/margins.title"
+        android:src="@drawable/starlog_black"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/infoAbout"
         android:id="@+id/textView2"
-        android:textSize="@dimen/text_size"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@android:color/darker_gray"/>
+        style="@style/margins.text"
+        android:text="@string/infoAbout"/>
 </LinearLayout>
