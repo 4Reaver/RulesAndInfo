@@ -4,5 +4,25 @@
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
+    <style name="margins">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="margins.title">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="margins.title.text">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="margins.text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <style name="margins.title.buttons">
+        <item name="android:layout_width">100dp</item>
+    </style>
 
 </resources>

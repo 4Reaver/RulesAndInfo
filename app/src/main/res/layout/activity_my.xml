@@ -6,35 +6,22 @@
     android:background="@drawable/background">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Title"
-        android:id="@+id/textView"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:textSize="@dimen/title_size"
-        android:layout_marginBottom="10dp"
-        android:textColor="@android:color/white"/>
+        android:id="@+id/mainTitle"
+        style="@style/margins.title.text"
+        android:text="@string/Title"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/starlog_black"
-        android:layout_gravity="center"
-        android:layout_marginBottom="10dp" />
+        style="@style/margins.title"
+        android:src="@drawable/starlog_black"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/rules"
         android:id="@+id/buttonRules"
-        android:layout_gravity="center" />
+        style="@style/margins.title.buttons"
+        android:text="@string/rules"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/info"
         android:id="@+id/buttonInfo"
-        android:layout_gravity="center" />
+        style="@style/margins.title.buttons"
+        android:text="@string/info"/>
 </LinearLayout>
