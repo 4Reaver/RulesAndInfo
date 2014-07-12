@@ -4,26 +4,34 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_blur">
+    android:background="@drawable/background_blur"
+    android:padding="10dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/rulesTitle"
         android:id="@+id/textView"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/title_size"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/white"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
-        android:src="@drawable/starcraft_logo"
-        android:layout_gravity="center"/>
+        android:src="@drawable/starlog_black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/damageRules"
         android:id="@+id/textView2"
-        android:layout_gravity="center_horizontal" />
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/darker_gray"/>
 </LinearLayout>
